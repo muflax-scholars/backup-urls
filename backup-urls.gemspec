@@ -5,11 +5,11 @@ require 'backup-urls/version'
 
 Gem::Specification.new do |gem|
   gem.name          = "backup-urls"
-  gem.version       = Backup::Urls::VERSION
+  gem.version       = BackupUrls::VERSION
   gem.authors       = ["muflax"]
   gem.email         = ["mail@muflax.com"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
+  gem.description   = %q{backup urls}
+  gem.summary       = %q{backup urls}
   gem.homepage      = ""
 
   gem.files         = `git ls-files`.split($/)
