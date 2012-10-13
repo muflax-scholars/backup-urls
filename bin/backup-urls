@@ -1,0 +1,20 @@
+#!/usr/bin/env ruby
+# -*- encoding: utf-8 -*-
+# Copyright muflax <mail@muflax.com>, 2012
+# License: GNU GPL 3 <http://www.gnu.org/copyleft/gpl.html>
+
+# load library
+file = File.symlink?(__FILE__) ? File.readlink(__FILE__) : __FILE__
+lib = File.join File.dirname(file), "/../lib/backup-urls"
+
+if File.exists? lib
+  # using local version
+  require lib
+else
+  require 'backup-urls'
+end
+
+# where to store the backup?
+target = File.join(Dir.home, "spoiler/archive/www")
+
+BackupUrls.backup ARGF.to_a, target
