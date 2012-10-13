@@ -1,3 +1,4 @@
+require "mechanize"
 require "parallel"
 
 # local libs

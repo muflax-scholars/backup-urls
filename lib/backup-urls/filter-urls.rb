@@ -72,7 +72,7 @@ module BackupUrls
            /tinyurl\.com/,
 
            # reddit-y sites (way too slow and huge)
-           /(lesswrong|reddit)\.com/,
+           /reddit\.com/,
 
            # beeminder (I also save my data locally)
            /beeminder\.com/,
