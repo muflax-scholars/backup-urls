@@ -35,6 +35,9 @@ module BackupUrls
         puts "  -> #{link.href}"
         cites[url] = link.href
       end
+
+      # avoid overloading the site
+      sleep 1
     end
     
   cites
