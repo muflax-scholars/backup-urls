@@ -49,7 +49,7 @@ module BackupUrls
            # archives
            /archive\.org/,
            /webcache\.googleusercontent\.com/,
-           /webcitation\.com/,
+           /webcitation\.org/,
            
            # session ids
            /\/session\//,
