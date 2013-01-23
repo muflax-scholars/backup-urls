@@ -15,6 +15,6 @@ else
 end
 
 # where to store the backup?
-target = File.join(Dir.home, "spoiler/archive/www")
+target = File.join(Dir.home, "archive/www")
 
 BackupUrls.backup ARGF.to_a, target
